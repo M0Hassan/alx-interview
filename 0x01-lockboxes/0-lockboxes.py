@@ -2,11 +2,11 @@
 
 
 def canUnlockAll(boxes):
-    '''function takes a list of lists of boxes that contain keys
+    """function takes a list of lists of boxes that contain keys
     and determines whether all boxes can be opened.
 
     returns True if all boxes can be opened or False otherwise
-    '''
+    """
 
     unlocked_boxes = [0]
 
