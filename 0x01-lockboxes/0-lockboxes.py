@@ -1,11 +1,16 @@
 #!/usr/bin/python3
+"""Lockboxes
+Contains method that finds the keys to open other lockboxes
+"""
 
 
 def canUnlockAll(boxes):
-    """function takes a list of lists of boxes that contain keys
-    and determines whether all boxes can be opened.
-
-    returns True if all boxes can be opened or False otherwise
+    """
+    Function that determines if you can open all the lockboxes
+    Args:
+        boxes: list of lists of integers
+    Returns:
+        True if you can open all the lockboxes, False otherwise
     """
 
     unlocked_boxes = [0]
